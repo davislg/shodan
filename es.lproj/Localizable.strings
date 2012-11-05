@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ShodanNav
+
+  Created by Erran Carey on 5/12/12.
+  Copyright (c) 2012 App2O. All rights reserved.
+ 
+ English:
+ 
+*/
+
+//Countries:
+"Korea, Republic of" = "South Korea";
+"Tanzania, United Republic of" = "Tanzania";
+"Iran, Islamic Republic of" = "Iran";
+
+//API Key Settings:
+"True" = "Enabled";
+"False" = "Disabled";
+"oss" = "Open Source Software";
+"dev" = "Developer";
+"www.shodanhq.com" = "www.shodanhq.com";

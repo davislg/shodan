@@ -1,0 +1,6 @@
+[submodule "shodan/Classes/External/shodan-objective-c"]
+	path = shodan/Classes/External/shodan-objective-c
+	url = git://github.com/ipwnstuff/shodan-objective-c.git
+[submodule "shodan/Classes/External/CMPopTipView"]
+	path = shodan/Classes/External/CMPopTipView
+	url = git://github.com/chrismiles/CMPopTipView.git

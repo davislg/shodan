@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  ShodanNav
+
+  Created by Erran Carey on 5/12/12.
+  Copyright (c) 2012 App2O. All rights reserved.
+
+  Spanish
+ 
+*/
+
+//Search Alert:
+"Results 1 - " = "Resultados 1 - ";
+" of about " = " de aproximadamente ";
+"\nfor \"" = "\npara \"";
+"Search Results" = "Resultados de Búsqueda";
+"Dismiss" = "Descarta";
+"Bad Request" = "Solicitud Incorrecta";
+
+//API Key Alert
+/*
+ NSString *title = NSLocalizedString(@"API Settings", @"The title of the API Key alert");
+ NSString *message = NSLocalizedString(@"Type your Shodan API Key here.", @"API Key message");
+ NSString *buttonTitle = NSLocalizedString(@"Save API", @"The button title of the API Key alert");
+*/
+"API Settings" = "Ajustes API";
+"Enter your Shodan API Key here." = "Entra tu llave API de Shodan aquí.";
+
+//Popover:
+"Top Countries:\n" = "Principales Países:\n";
+"Top Cities:\n" = "Principales Ciudades:\n";
+"Top locations for the query not found." = "Principales Lugares no se encuentaron en la búsqueda.";
+
+//Countries:
+//A
+//B
+"Brazil" = "Brasil";
+//C
+"Canada" = "Canadá";
+"Czech Republic" = "República Checa";
+//D
+"Denmark" = "Dinamarca";
+//E
+"Egypt" = "Egipto";
+//F
+"Finland" = "Finlandia";
+"France" = "Francia";
+//G
+//H
+"Hungary" = "Hungría";
+//I
+"Ireland" = "Irlanda";
+//J
+"Japan" = "Japón";
+"Jordan" = "Jordania";
+//K
+"Kenya" = "Kenia";
+//L
+//M
+//N
+//O
+//P
+"Philippines" = "Filipinas";
+//Q
+//R
+"Romania" = "Rumanía";
+"Russian Federation" = "Federación Rusa";
+//S
+"Korea, Republic of" = "Corea del Sur";
+"Spain" = "España";
+//T
+"Tanzania, United Republic of" = "Tanzania";
+//U
+"Ukraine" = "Ucrania";
+"United Kingdom" = "Reino Unido";
+"United States" = "Estados Unidos";
+//V
+//W
+//X
+//Y
+//Z
+
+//NULL
+"Localize Unknown" = "Desconocido";
+
+"True" = "Activado";
+"False" = "Desactivado";
+"oss" = "Código Abierto";
+"dev" = "Desrollador";
+
+
