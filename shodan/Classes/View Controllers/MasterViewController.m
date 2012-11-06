@@ -53,25 +53,23 @@
 @synthesize matches;
 @synthesize scopeTitles;
 
+- (void)resetAPIKey{
+    self.apiKey = @"ueZLMDjY4xBU5DbhR76ROvOEQP7Vj8FO";
+    [defaults setObject:apiKey forKey:kapiKey];
+    [defaults synchronize];
+}
+
 -(void)loadAPIURL{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.apiKey = [[defaults objectForKey:kapiKey]stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    if(!apiKey){
-        self.apiKey = @"ueZLMDjY4xBU5DbhR76ROvOEQP7Vj8FO";
-    	[defaults setObject:apiKey forKey:kapiKey];
-        [defaults synchronize];
-	}
+    apiKey?: [self resetAPIKey];
     self.baseUrl = [NSURL URLWithString:@"http://www.shodanhq.com/api/"];
 	self.func = @"info";
 }
 -(void)loadURL{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.apiKey = [[defaults objectForKey:kapiKey]stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    if(!apiKey){
-        self.apiKey = @"ueZLMDjY4xBU5DbhR76ROvOEQP7Vj8FO";
-    	[defaults setObject:apiKey forKey:kapiKey];
-        [defaults synchronize];
-	}
+    apiKey?: [self resetAPIKey];
     self.baseUrl = [NSURL URLWithString:@"http://www.shodanhq.com/api/"];
 	self.func = @"search";
 }
