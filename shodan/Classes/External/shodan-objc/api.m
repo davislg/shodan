@@ -33,12 +33,7 @@
 -(void)request:(NSString*)function
 {
   // Send the request based on the function.
-  // params = [NSMutableDictionary dictionaryWithObjectsAndKeys: base_url,@"base_url", [function stringByAppendingFormat:@"?"],@"function", [NSString stringWithFormat:@"key=%@",api_key],@"api_key", nil];
-    params = @{
-        @"base_url" : base_url,
-        @"function" : [function stringByAppendingFormat:@"?"],
-         @"api_key" : [NSString stringWithFormat:@"key=%@",api_key]
-    };
+	params = [NSMutableDictionary dictionaryWithObjectsAndKeys:base_url,@"base_url",[function stringByAppendingFormat:@"?"],@"function",[NSString stringWithFormat:@"key=%@",api_key],@"api_key",nil];
 	NSURL* url = nil;
 	NSString* url_string = @"";
 
