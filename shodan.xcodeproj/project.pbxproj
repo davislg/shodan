@@ -442,13 +442,16 @@
 		1838163B15B3A2F8004284AA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979073B1572A5540099B4C3 /* MainStoryboard.storyboard */; };
 		1838163C15B3A2F8004284AA /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398D6FC1157FF8CB004BA8FC /* iPadStoryboard.storyboard */; };
 		1848A97B15B6914C005A6501 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1848A97A15B6914C005A6501 /* Settings.bundle */; };
-		1874AF4916476346000BB01A /* api.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874AF4816476346000BB01A /* api.m */; };
 		18825884164744CE008FAB7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825851164744CE008FAB7A /* AppDelegate.m */; };
 		18825886164744CE008FAB7A /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825858164744CE008FAB7A /* CMPopTipView.m */; };
 		18825897164744CE008FAB7A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882587B164744CE008FAB7A /* BannerViewController.m */; };
 		18825898164744CE008FAB7A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882587D164744CE008FAB7A /* DetailViewController.m */; };
 		18825899164744CE008FAB7A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882587F164744CE008FAB7A /* MasterViewController.m */; };
 		18A6C75B164731C400ED8415 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A6C75A164731C300ED8415 /* Default-568h@2x.png */; };
+		18E20AB41648B9D30060D0ED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18E20AAF1648B9D30060D0ED /* .gitignore */; };
+		18E20AB51648B9D30060D0ED /* api.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E20AB11648B9D30060D0ED /* api.m */; };
+		18E20AB61648B9D30060D0ED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18E20AB21648B9D30060D0ED /* LICENSE */; };
+		18E20AB71648B9D30060D0ED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E20AB31648B9D30060D0ED /* README.md */; };
 		390AF4251581DF8C00037B78 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390AF4241581DF8C00037B78 /* MessageUI.framework */; };
 		397905961572A4870099B4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397903E91572A4860099B4C3 /* main.m */; };
 		3983D7A5157923B6007BD797 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983D7A4157923B6007BD797 /* iAd.framework */; };
@@ -881,8 +884,6 @@
 		181F301D15B68D0A00D06796 /* ZW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZW.png; sourceTree = "<group>"; };
 		181F301E15B68D0A00D06796 /* ZW@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZW@2x.png"; sourceTree = "<group>"; };
 		1848A97A15B6914C005A6501 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		1874AF4716476346000BB01A /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
-		1874AF4816476346000BB01A /* api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = api.m; sourceTree = "<group>"; };
 		18825850164744CE008FAB7A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18825851164744CE008FAB7A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18825852164744CE008FAB7A /* AppSpecificValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSpecificValues.h; sourceTree = "<group>"; };
@@ -897,6 +898,11 @@
 		18A6C75816472FA800ED8415 /* shodan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "shodan-Info.plist"; path = "shodan/shodan-Info.plist"; sourceTree = "<group>"; };
 		18A6C75916472FA800ED8415 /* shodan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "shodan-Prefix.pch"; path = "shodan/shodan-Prefix.pch"; sourceTree = "<group>"; };
 		18A6C75A164731C300ED8415 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18E20AAF1648B9D30060D0ED /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18E20AB01648B9D30060D0ED /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		18E20AB11648B9D30060D0ED /* api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = api.m; sourceTree = "<group>"; };
+		18E20AB21648B9D30060D0ED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18E20AB31648B9D30060D0ED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		390AF4241581DF8C00037B78 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3934F3171583118A0055F9F5 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		3934F3181583118A0055F9F5 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
@@ -1395,8 +1401,8 @@
 		18825853164744CE008FAB7A /* External */ = {
 			isa = PBXGroup;
 			children = (
+				18E20AAE1648B9D30060D0ED /* shodan-objc */,
 				18825856164744CE008FAB7A /* CMPopTipView */,
-				18825871164744CE008FAB7A /* shodan-objective-c */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -1411,15 +1417,6 @@
 			path = CMPopTipView/CMPopTipView;
 			sourceTree = "<group>";
 		};
-		18825871164744CE008FAB7A /* shodan-objective-c */ = {
-			isa = PBXGroup;
-			children = (
-				1874AF4716476346000BB01A /* api.h */,
-				1874AF4816476346000BB01A /* api.m */,
-			);
-			path = "shodan-objective-c";
-			sourceTree = "<group>";
-		};
 		18825879164744CE008FAB7A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1431,6 +1428,18 @@
 				1882587F164744CE008FAB7A /* MasterViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18E20AAE1648B9D30060D0ED /* shodan-objc */ = {
+			isa = PBXGroup;
+			children = (
+				18E20AAF1648B9D30060D0ED /* .gitignore */,
+				18E20AB01648B9D30060D0ED /* api.h */,
+				18E20AB11648B9D30060D0ED /* api.m */,
+				18E20AB21648B9D30060D0ED /* LICENSE */,
+				18E20AB31648B9D30060D0ED /* README.md */,
+			);
+			path = "shodan-objc";
 			sourceTree = "<group>";
 		};
 		3934F32A158311D60055F9F5 /* Device Images */ = {
@@ -1980,6 +1989,9 @@
 				181F31E615B68D0A00D06796 /* ZW@2x.png in Resources */,
 				1848A97B15B6914C005A6501 /* Settings.bundle in Resources */,
 				18A6C75B164731C400ED8415 /* Default-568h@2x.png in Resources */,
+				18E20AB41648B9D30060D0ED /* .gitignore in Resources */,
+				18E20AB61648B9D30060D0ED /* LICENSE in Resources */,
+				18E20AB71648B9D30060D0ED /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1996,7 +2008,7 @@
 				18825897164744CE008FAB7A /* BannerViewController.m in Sources */,
 				18825898164744CE008FAB7A /* DetailViewController.m in Sources */,
 				18825899164744CE008FAB7A /* MasterViewController.m in Sources */,
-				1874AF4916476346000BB01A /* api.m in Sources */,
+				18E20AB51648B9D30060D0ED /* api.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
