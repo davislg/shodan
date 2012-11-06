@@ -11,7 +11,7 @@
 
 @class DetailViewController;
 @interface MasterViewController : UITableViewController<UIAlertViewDelegate, UISearchBarDelegate, CMPopTipViewDelegate>{
-    DetailViewController* _detailViewController;
+	DetailViewController* _detailViewController;
 }
 
 @property (strong, nonatomic) DetailViewController* detailViewController;

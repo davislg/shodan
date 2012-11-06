@@ -12,8 +12,8 @@
 #import <iAD/iAD.h>
 
 @interface DetailViewController : UIViewController<CLLocationManagerDelegate,MKAnnotation,MKMapViewDelegate,ADBannerViewDelegate,UISplitViewControllerDelegate>{
-    BOOL _bannerIsVisible;
-    ADBannerView* _adBannerView;
+	BOOL _bannerIsVisible;
+	ADBannerView* _adBannerView;
 }
 
 @property BOOL bannerIsVisible;

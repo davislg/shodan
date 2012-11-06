@@ -1,4 +1,4 @@
-/*     File: BannerViewController.h */
+/*	 File: BannerViewController.h */
 /* Abstract: A container view controller that manages an ADBannerView and a content view controller */
 /*  Version: 2.0 */
 /*  */
