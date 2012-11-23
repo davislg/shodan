@@ -96,19 +96,8 @@
 }
 
 -(IBAction)openlonglat{
-	NSString *link = [NSString stringWithFormat:@"http://maps.google.com/maps?q=%@,%@",latitude,longitude];
+	NSString *link = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%@,%@",latitude,longitude];
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:link]];
-}
--(IBAction)openShodan:(id)sender{
-	UIButton* button = sender;
-	if (button.tag == 1) {
-		NSString *link = @"http://www.shodanhq.com/help/tour";
-		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:link]];
-	}
-	else if (button.tag == 2) {
-		NSString *link = @"http://www.shodanhq.com/account/register";
-		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:link]];
-	}
 }
 -(void)hide{
 	[ipLabel setHidden:YES];
@@ -163,44 +152,6 @@
 }		
 -(void)changeLocation{
 	@try{
-		/*
-		 if ((city && country_name) && (![city isEqual:[NSNull null]] && ![country_name isEqual:[NSNull null]])) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %@",city,country_name];
-		 }
-		 else if ((city && country_code) && (![city isEqual:[NSNull null]] && ![country_code isEqual:[NSNull null]])) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %@",city,country_code];
-		 }
-		 else if (country_name && ![country_name isEqual:[NSNull null]]) {
-		 cell.detailTextLabel.text = country_name;
-		 }
-		 else if (country_code && ![country_code isEqual:[NSNull null]]) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@",country_code];
-		 }
-		 else if (city && ![city isEqual:[NSNull null]]) {
-		 cell.detailTextLabel.text = city;
-		 }
-		 if (city != NULL && [country_name isEqual:@"Korea, Republic of"]) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, South Korea",city];
-		 }
-		 else if (city != NULL && [country_name isEqual:@"Tanzania, United Republic of"]) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, Tanzania",city];		
-		 }
-		 else if (city != NULL && [country_name isEqual:@"Iran, Islamic Republic of"]) {
-		 cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, Iran",city];		
-		 }
-		 else if ([country_name isEqual:@"Korea, Republic of"]) {
-		 cell.detailTextLabel.text = @"South Korea";
-		 }
-		 else if ([country_name isEqual:@"Tanzania, United Republic of"]) {
-		 cell.detailTextLabel.text = @"Tanzania";		
-		 }
-		 else if ([country_name isEqual:@"Iran, Islamic Republic of"]) {
-		 cell.detailTextLabel.text = @"Iran";		
-		 }
-		 if (!cell.detailTextLabel.text || cell.detailTextLabel.text == @""){
-		 cell.detailTextLabel.text = @"Unknown";
-		 }
-		 */
 		if ((city && country_name) && (![city isEqual:[NSNull null]] && ![country_name isEqual:[NSNull null]])) {
 			[longlat setTitle:[NSString stringWithFormat:@"%@, %@",city,country_name] forState:UIControlStateNormal];		
 			[longlat setTitle:[NSString stringWithFormat:@"%@, %@",city,country_name] forState:UIControlStateHighlighted];		
