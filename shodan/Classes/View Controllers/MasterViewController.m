@@ -376,11 +376,11 @@
 	self.country_code = [computerDictionary objectForKey:@"country_code"];
 	self.city = [computerDictionary objectForKey:@"city"];
 	self.updated = [computerDictionary objectForKey:@"updated"];
-	self.longitude = [computerDictionary objectForKey:@"longitude"];
+    self.longitude = [NSString stringWithFormat:@"%f", [[computerDictionary objectForKey:@"longitude"] floatValue]];
 	if ([longitude isEqual:[NSNull null]]){
 		self.longitude = @"0.000";
 	}
-	self.latitude = [computerDictionary objectForKey:@"latitude"];
+    self.latitude = [NSString stringWithFormat:@"%f", [[computerDictionary objectForKey:@"latitude"] floatValue]];
 	if ([latitude isEqual:[NSNull null]]){
 		self.latitude = @"0.000";
 	}
