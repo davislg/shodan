@@ -182,7 +182,7 @@
 	if (matches){
 		[self matchesFound];
 	}
-	else if(errorMsg != NULL){
+	else if (errorMsg != NULL){
 		[self errorMessage];;
 	}
 	else{
@@ -298,33 +298,33 @@
 }
 
 -(void)replaceSearchBarText{
-	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@"+port:80" withString:@""];
-	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@"+port:21" withString:@""];
-	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@"+port:22" withString:@""];
-	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@"+port:161" withString:@""];
-	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@"+port:5060" withString:@""];
+	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@" port:80" withString:@""];
+	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@" port:21" withString:@""];
+	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@" port:22" withString:@""];
+	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@" port:161" withString:@""];
+	self.searchBar.text = [searchBar.text stringByReplacingOccurrencesOfString:@" port:5060" withString:@""];
 }
 
 -(void)searchBar:(UISearchBar *)search_Bar selectedScopeButtonIndexDidChange:(NSInteger)selectedScope{
-	if (selectedScope == 0 && ![searchBar.text isEqual:@""] && searchBar.text && searchBar.showsScopeBar == YES) {
+	if (selectedScope == 0 && searchBar.showsScopeBar == YES) {
 		[self replaceSearchBarText];
-		self.searchBar.text = [NSString stringWithFormat:@"%@+port:80",searchBar.text];
+		self.searchBar.text = [NSString stringWithFormat:@"%@ port:80",searchBar.text];
 	}
-	else if (selectedScope == 1 && ![searchBar.text isEqual:@""] && searchBar.text  && searchBar.showsScopeBar == YES) {
+	else if (selectedScope == 1 && searchBar.showsScopeBar == YES) {
 		[self replaceSearchBarText];		
-		self.searchBar.text = [NSString stringWithFormat:@"%@+port:21",searchBar.text];
+		self.searchBar.text = [NSString stringWithFormat:@"%@ port:21",searchBar.text];
 	}
-	else if (selectedScope == 2 && ![searchBar.text isEqual:@""] && searchBar.text  && searchBar.showsScopeBar == YES) {
+	else if (selectedScope == 2 && searchBar.showsScopeBar == YES) {
 		[self replaceSearchBarText];		
-		self.searchBar.text = [NSString stringWithFormat:@"%@+port:22",searchBar.text];
+		self.searchBar.text = [NSString stringWithFormat:@"%@ port:22",searchBar.text];
 	}
-	else if (selectedScope == 3 && ![searchBar.text isEqual:@""] && searchBar.text  && searchBar.showsScopeBar == YES) {
+	else if (selectedScope == 3 && searchBar.showsScopeBar == YES) {
 		[self replaceSearchBarText];		
-		self.searchBar.text = [NSString stringWithFormat:@"%@+port:161",searchBar.text];
+		self.searchBar.text = [NSString stringWithFormat:@"%@ port:161",searchBar.text];
 	}
-	else if (selectedScope == 4 && ![searchBar.text isEqual:@""] && searchBar.text && searchBar.showsScopeBar == YES) {
+	else if (selectedScope == 4 && searchBar.showsScopeBar == YES) {
 		[self replaceSearchBarText];		
-		self.searchBar.text = [NSString stringWithFormat:@"%@+port:5060",searchBar.text];
+		self.searchBar.text = [NSString stringWithFormat:@"%@ port:5060",searchBar.text];
 	}
 	else {
 		self.searchBar.selectedScopeButtonIndex = -1;
